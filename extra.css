@@ -1,0 +1,35 @@
+.md-typeset h2 {
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+div.vx_property {
+    margin-left: 60px;
+}
+
+div.vx_property table td:first-child {
+    width: 8em;
+}
+
+div.vx_property table td:nth-child(2) {
+    width: 30em;
+    font-family: monospace;
+}
+
+div.vx_event {
+    margin-left: 60px;
+}
+
+div.vx_event table td:first-child {
+    width: 12em;
+    font-family: monospace;
+}
+
+div.vx_slot {
+    margin-left: 60px;
+}
+
+div.vx_slot table td:first-child {
+    width: 12em;
+    font-family: monospace;
+}
