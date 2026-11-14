@@ -2,11 +2,10 @@
 
 `vx-route | VxRoute`
 
-A `vx-route` defines an individual route path.  A route must be defined as a direct child of a [VxRouter](vx-route.md)
+A `vx-route` defines an individual route path.  A route must be defined as a direct child of a [VxRouter](vx-router.md)
 element.
 
-Parsing of the route is done by the [`path-to-regexp` library 
-from npmjs](https://www.npmjs.com/package/path-to-regexp) and any parameters extracted stored in
+Parsing of the route is done by the `path-to-regexp` package on [npm](https://www.npmjs.com/package/path-to-regexp) and any parameters extracted stored in
 the route's `paramters` property.
 
 ## Examples
