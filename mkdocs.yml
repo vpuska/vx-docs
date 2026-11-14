@@ -1,4 +1,4 @@
-site_name: Puss-in-Books Development Notes
+site_name: vx-components reference
 theme:
   name: material
   features:
@@ -25,6 +25,7 @@ theme:
         name: Switch to system preference
 markdown_extensions:
   - admonition
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -32,4 +33,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+extra_css:
+  - extra.css
+
 
