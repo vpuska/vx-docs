@@ -56,7 +56,6 @@ If `button` is set, the `vx-svg` element will be clickable and raise a `click` e
 become a pointer and the element highlighted when the mouse is over the element.
 </div>
 
-    
 <script type="module">
     import {registerSvgLibrary, html} from "../../vx-components.js";
     registerSvgLibrary("shapes", {
