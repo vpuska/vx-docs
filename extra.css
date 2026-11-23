@@ -1,35 +1,63 @@
+/* Make H2 headings slightly larger and bolder */
 .md-typeset h2 {
     font-weight: 600;
     font-size: 1.8em;
 }
 
-div.vx_property {
+/* Custom style for property/attribute component section */
+div.vx_property,
+div.vx_attribute {
     margin-left: 60px;
 }
-
-div.vx_property table td:first-child {
+div.vx_property  table td:first-child,
+div.vx_attribute table td:first-child {
     width: 8em;
 }
-
-div.vx_property table td:nth-child(2) {
+div.vx_property  table td:nth-child(2),
+div.vx_attribute table td:nth-child(2) {
     width: 30em;
     font-family: monospace;
 }
 
-div.vx_event {
-    margin-left: 60px;
-}
-
-div.vx_event table td:first-child {
-    width: 12em;
-    font-family: monospace;
-}
-
+/* Customer style for event/slot component section */
+div.vx_event,
 div.vx_slot {
     margin-left: 60px;
 }
-
-div.vx_slot table td:first-child {
+div.vx_event table td:first-child,
+div.vx_slot  table td:first-child {
     width: 12em;
     font-family: monospace;
+}
+
+/* API */
+div.vx_api {
+    margin-left: 60px;
+}
+
+div.vx_api table td:first-child,
+div.vx_api table td:nth-child(2) {
+    width: 12em;
+    font-family: monospace;
+}
+
+/***************************************************/
+/* VX-COMPONENTS                                   */
+/***************************************************/
+
+
+[data-md-color-scheme=slate] {
+    --vx-text-color: white;
+    --vx-panel-color: #020b17;
+}
+
+[data-md-color-scheme=default] {
+    --vx-text-color: black;
+    --vx-panel-color: #bec8d5;
+}
+
+div.vx {
+    padding: 12px;
+    color: var(--vx-text-color);
+    background-color: var(--vx-panel-color);
 }
