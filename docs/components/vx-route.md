@@ -38,11 +38,10 @@ removed from the DOM.
     </vx-route>
 ```
 
-
 ## Attributes
 
 ### `path`
-<div class="vx_property" markdown>
+<div class="vx_attribute" markdown>
 <table>
     <tr><td>Type</td>   <td>string</td></tr>
     <tr><td>Default</td><td>-</td></tr>

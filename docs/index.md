@@ -1,3 +1,3 @@
 # Overview
 
-This is the reference docs for vx-components
+**vx-components** is a simple web component library built using [lit](https://lit.dev).  

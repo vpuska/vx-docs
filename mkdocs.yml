@@ -33,7 +33,24 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra_css:
   - extra.css
+extra_javascript:
+  - path: vx-components.js
+    type: module
+nav:
+  - index.md
+  - Components:
+    - components/vx-panel.md
+    - components/vx-route.md
+    - components/vx-router.md
+    - components/vx-svg.md
+  - Topics:
+    - topics/svg.md
+  - API:
+    - api/svg.md
+
 
 
