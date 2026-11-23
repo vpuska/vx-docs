@@ -1,4 +1,5 @@
 site_name: vx-components reference
+site_url: https://vpuska.github.io/vx-docs/
 theme:
   name: material
   features:
