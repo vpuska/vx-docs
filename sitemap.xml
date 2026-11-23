@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/api/svg/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/components/vx-panel/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/components/vx-route/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/components/vx-router/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/components/vx-svg/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
+    <url>
+         <loc>https://vpuska.github.io/vx-docs/topics/svg/</loc>
+         <lastmod>2026-11-23</lastmod>
+    </url>
 </urlset>
